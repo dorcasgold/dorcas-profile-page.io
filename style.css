@@ -2,13 +2,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: lavender;
+  background-color: cornsilk;
+}
+
+
+
+img {
+  width: 100%;
 }
 
 header {
   background-color: #333;
-  color: #fff;
-  padding: 20px;
+  color: cornsilk;
+  padding: 5px;
   text-align: center;
 }
 
@@ -24,7 +30,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #fff;
+  color: cornsilk;
   text-decoration: none;
   font-size: 20px;
   transition: all 1s;
@@ -32,4 +38,40 @@ nav ul li a {
 
 nav ul li a:hover {
   color: grey;
+}
+
+#about-me {
+  text-align: center;
+}
+
+#about-me h2 {
+  font-size: 33px;
+}
+
+#about-me div {
+  display: flex;
+  gap: 11rem;
+  justify-content: center;
+}
+
+#about-me div img {
+  width: 300px;
+  border-radius: 50px;
+}
+
+#about-me div p {
+  width: 400px;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+#skills {
+  text-align: center;
+  background-color: #333;
+  color: cornsilk;
+}
+
+li {
+  list-style-type: none;
 }
