@@ -44,7 +44,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-#about-me h2 {
+h2 {
   font-size: 33px;
 }
 
@@ -66,12 +66,14 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
+li {
+  list-style-type: none;
+}
+
 #skills {
   text-align: center;
   background-color: #333;
   color: cornsilk;
-}
-
-li {
-  list-style-type: none;
+  padding: 1rem;
+  margin: 5rem 0px;
 }
